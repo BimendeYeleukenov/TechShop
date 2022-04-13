@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     $res = mysqli_query($conn, $sql);
 
     if ($res == TRUE) {
-        header("location:http://test/work3/module.php");
+        header("location:http://test/Module/module.php");
     }
 
     var_dump($conn);
