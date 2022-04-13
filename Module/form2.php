@@ -7,6 +7,6 @@ if (isset($_POST['submit'])) {
     $db_select = mysqli_select_db($conn, 'bitrix');
     $res = mysqli_query($conn, $sql);
     if ($res == TRUE) {
-        header("location:http://test/work3/module.php");
+        header("location:http://test/Module/module.php");
     }
 }
